@@ -1,5 +1,6 @@
 module datapath (
     input clk,
+    input clken,
     input rst,
     input ser_in,
     input sh_en,
@@ -8,12 +9,12 @@ module datapath (
     input ldcntd,
     input cntd,
     input cnt2,
-    output reg co1,
-    output reg [3:0] p,
-    output reg cod,
-    output reg co2,
-    output reg [6:0] up,
-    output reg [6:0] low
+    output co1,
+    output [3:0] p,
+    output cod,
+    output co2,
+    output [6:0] up,
+    output [6:0] low
 );
 
     wire [1:0] pn;
@@ -22,6 +23,7 @@ module datapath (
 
     port_num_sr pns (
         .clk(clk),
+        .clken(clken),
         .reset(rst),
         .ser_in(ser_in),
         .sh_en(sh_en),
@@ -30,6 +32,7 @@ module datapath (
 
     port_num_cnt pnc (
         .clk(clk),
+        .clken(clken),
         .reset(rst),
         .cnt1(cnt1),
         .co1(co1)
@@ -37,6 +40,7 @@ module datapath (
 
     data_num_sr dns (
         .clk(clk),
+        .clken(clken),
         .reset(rst),
         .ser_in(ser_in),
         .shend(shend),
@@ -45,13 +49,15 @@ module datapath (
 
     data_num_cnt dnc (
         .clk(clk),
+        .clken(clken),
         .reset(rst),
         .cnt2(cnt2),
         .co2(co2)
     );
 
-    data_trans_cnt (
+    data_trans_cnt dtc (
         .clk(clk),
+        .clken(clken),
         .reset(rst),
         .ldcntd(ldcntd),
         .cntd(cntd),
@@ -60,7 +66,7 @@ module datapath (
         .q(ssd)
     );
 
-    demux demux (
+    demux dmx (
         .port_num(pn),
         .ser_in(ser_in),
         .p(p)

@@ -3,30 +3,64 @@ module top_module(
     input rst,
     input ser_in,
     input clkpb,
-    output reg [3:0] LEDR,
-    output reg [1:0] LEDG,
-    output reg [1:0] HEX
+    output [3:0] LEDR,
+    output [1:0] LEDG,
+    output [1:0] HEX
 );
 
+    wire clken;
     wire sh_en;
     wire cnt1;
-    wire sh_en;
-    wire cnt1
+    wire shend;
+    wire ldcntd;
+    wire cntd;
+    wire cnt2;
+    wire co1;
+    wire cod;
+    wire co2;
+
+    controller_onepulser op (
+        .clkpb(clkpb),
+        .rst(rst),
+        .clk(clk),
+        .clken(clken)
+    );
 
     datapath dp (
         .clk(clk),
+        .clken(clken),
         .rst(rst),
         .ser_in(ser_in),
-        .sh_en,
-        .cnt1,
-        .shend,
-        .ldcntd,
-        .cntd,
-        .cnt2,
-        .co1,
+        .sh_en(sh_en),
+        .cnt1(cnt1),
+        .shend(shend),
+        .ldcntd(ldcntd),
+        .cntd(cntd),
+        .cnt2(cnt2),
+        .co1(co1),
         .p(LEDR),
-        .cod,
-        .co2,
+        .cod(cod),
+        .co2(co2),
         .up(HEX[1]),
         .low(HEX[0])
-    )
+    );
+
+    controller cu (
+        .clk(clk),
+        .clken(clken),
+        .rst(rst),
+        .co1(co1),
+        .co2(co2),
+        .cod(cod),
+        .serin(ser_in),
+        .cnt1(cnt1),
+        .cnt2(cnt2),
+        .cntd(cntd),
+        .ldcntd(ldcntd),
+        .shen(sh_en),
+        .shend(shend),
+        .serout_valid(LEDG[0]),
+        .done(LEDG[1])
+    );
+
+endmodule
