@@ -10,177 +10,186 @@ z2
 cModel Technology
 Z0 dE:/UT Programming/Computer-Architecture-Course-Spring-2025/CA1
 T_opt
-!s110 1746257649
-Vj@;<bo5U[d^QiQ<GRL8Og1
-04 11 4 work datapath_tb fast 0
-=1-b888e3b94e9b-6815c6f1-1c6-1264
-Z1 o-quiet -auto_acc_if_foreign -work work +acc
-Z2 tCvgOpt 0
+!s110 1746278484
+V2DPzfA>JkkUA@MlbmDVYj0
+Z1 04 13 4 work top_module_tb fast 0
+=1-a036bc6c04ac-68161854-28c-4d0c
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
 n@_opt
-Z3 OL;O;2020.4;71
+Z4 OL;O;2020.4;71
 R0
 T_opt1
-!s110 1746269514
-V458TbzY3B5S^MjG5UB9<@0
-04 13 4 work top_module_tb fast 0
-=1-b888e3b94e9b-6815f54a-5f-3978
+!s110 1746442148
+VA?5;E[EN0LA`O_8bO[ZLN1
 R1
+=1-b888e3b94e9b-681897a3-1e1-8b44
 R2
-n@_opt1
 R3
+n@_opt1
+R4
+T_opt2
+!s110 1746274380
+VzQ>?S:5F7667Ce<5Fen<;3
+R1
+=1-a036bc6c04ac-6816084b-386-4c90
+o-quiet -auto_acc_if_foreign -work work
+R3
+n@_opt2
+R4
 R0
 vcontroller
-Z4 !s110 1746273588
+Z5 !s110 1746442113
 !i10b 1
-!s100 z@6d7ZR34fJjI>a4PoHjc0
-Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
-Iez]odFG=md=l_zc646hQQ3
-Z6 dE:/UT Programming/DLD-Lab-Spring-2025
-w1746269321
+!s100 H;lg_C1Z4B0=FC8`lUKa03
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I@CnMhnZf_CCCb^A`kf@;Y2
+Z7 dE:/UT Programming/DLD-Lab-Spring-2025
+w1746442071
 8E:/UT Programming/DLD-Lab-Spring-2025/controller.v
 FE:/UT Programming/DLD-Lab-Spring-2025/controller.v
-!i122 349
+!i122 649
 L0 6 67
-Z7 VDg1SIo80bB@j0V0VzS_@n1
-Z8 OL;L;2020.4;71
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z9 !s108 1746273588.000000
+Z10 !s108 1746442113.000000
 !s107 E:/UT Programming/DLD-Lab-Spring-2025/controller.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/controller.v|
 !i113 0
-Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
 vcontroller_onepulser
-R4
+R5
 !i10b 1
 !s100 L`o^@_HF>f7^Td6I:MA8a3
-R5
-IFLaBPDcb^F9Q`7HBXTnjF0
 R6
-w1745067766
+IFLaBPDcb^F9Q`7HBXTnjF0
+R7
+w1746274249
 8E:/UT Programming/DLD-Lab-Spring-2025/controller_onepulser.v
 FE:/UT Programming/DLD-Lab-Spring-2025/controller_onepulser.v
-!i122 350
+!i122 650
 L0 5 26
-R7
 R8
+R9
 r1
 !s85 0
 31
-R9
+R10
 !s107 E:/UT Programming/DLD-Lab-Spring-2025/controller_onepulser.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/controller_onepulser.v|
 !i113 0
-R10
-R2
+R11
+R3
 vdata_num_cnt
-Z11 !s110 1746273589
+Z12 !s110 1746442114
 !i10b 1
-!s100 N[eTh`jWbj_K`^L@8G8Ba0
-R5
-IOmb2S[U]`;<6KfFlGhV4a1
+!s100 903SW[1A[j66dYZBS8Q6M3
 R6
-w1746273533
+IWa:]NF`Vi[4h3RmA^d]eL2
+R7
+w1746441976
 8E:/UT Programming/DLD-Lab-Spring-2025/DataPath/DataNumCnt.v
 FE:/UT Programming/DLD-Lab-Spring-2025/DataPath/DataNumCnt.v
-!i122 353
-Z12 L0 1 29
-R7
+!i122 654
+Z13 L0 1 29
 R8
+R9
 r1
 !s85 0
 31
-Z13 !s108 1746273589.000000
+Z14 !s108 1746442114.000000
 !s107 E:/UT Programming/DLD-Lab-Spring-2025/DataPath/DataNumCnt.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/DataPath/DataNumCnt.v|
 !i113 0
-R10
-R2
-vdata_num_sr
 R11
+R3
+vdata_num_sr
+R12
 !i10b 1
-!s100 QF07<Lb?zaZT??:e0;f[`3
-R5
-IOM6LDbGcn_A0EI;??^cnm2
+!s100 I26MzRWo32Aa>8L<64M[T3
 R6
-w1746268999
+IC<C>kBW:3505I9obFb<ZE3
+R7
+w1746441987
 8E:/UT Programming/DLD-Lab-Spring-2025/DataPath/DataNumSR.v
 FE:/UT Programming/DLD-Lab-Spring-2025/DataPath/DataNumSR.v
-!i122 354
-Z14 L0 1 20
-R7
+!i122 655
+Z15 L0 1 20
 R8
+R9
 r1
 !s85 0
 31
-R13
+R14
 !s107 E:/UT Programming/DLD-Lab-Spring-2025/DataPath/DataNumSR.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/DataPath/DataNumSR.v|
 !i113 0
-R10
-R2
-vdata_trans_cnt
 R11
+R3
+vdata_trans_cnt
+R12
 !i10b 1
-!s100 ]RQTBnk?f?SWo7PT[Y4UX0
-R5
-IoH@V9;Kl:VO=37Vl2eaU73
+!s100 9H`goS[cnfYb:d9d8MIFf1
 R6
-w1746273335
+IVm1b7Eo_]fBz=;5i3g_kW0
+R7
+w1746441997
 8E:/UT Programming/DLD-Lab-Spring-2025/DataPath/DataTransCnt.v
 FE:/UT Programming/DLD-Lab-Spring-2025/DataPath/DataTransCnt.v
-!i122 356
+!i122 657
 L0 1 34
-R7
 R8
+R9
 r1
 !s85 0
 31
-R13
+R14
 !s107 E:/UT Programming/DLD-Lab-Spring-2025/DataPath/DataTransCnt.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/DataPath/DataTransCnt.v|
 !i113 0
-R10
-R2
-vdatapath
 R11
+R3
+vdatapath
+R12
 !i10b 1
 !s100 WmiN9c5>iU9TkaWK@@GZg2
-R5
-I6SabI7kG1O:Uj^^2h8HKZ1
 R6
-w1746257134
+I6SabI7kG1O:Uj^^2h8HKZ1
+R7
+Z16 w1746274247
 8E:/UT Programming/DLD-Lab-Spring-2025/DataPath/datapath.v
 FE:/UT Programming/DLD-Lab-Spring-2025/DataPath/datapath.v
-!i122 355
+!i122 656
 L0 1 86
-R7
 R8
+R9
 r1
 !s85 0
 31
-R13
+R14
 !s107 E:/UT Programming/DLD-Lab-Spring-2025/DataPath/datapath.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/DataPath/datapath.v|
 !i113 0
-R10
-R2
+R11
+R3
 vdatapath_tb
 !s110 1746266633
 !i10b 1
 !s100 08k=823QK3CGmhcOj41E23
-R5
-IUBhJ__@SR5`T^VWY8:JF_2
 R6
+IUBhJ__@SR5`T^VWY8:JF_2
+R7
 w1746257622
 8E:/UT Programming/DLD-Lab-Spring-2025/DataPath/datapath_tb.v
 FE:/UT Programming/DLD-Lab-Spring-2025/DataPath/datapath_tb.v
 !i122 204
 L0 3 78
-R7
 R8
+R9
 r1
 !s85 0
 31
@@ -188,167 +197,191 @@ r1
 !s107 E:/UT Programming/DLD-Lab-Spring-2025/DataPath/datapath_tb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/DataPath/datapath_tb.v|
 !i113 0
-R10
-R2
-vdemux
 R11
+R3
+vdemux
+R12
 !i10b 1
 !s100 F4OYaCB0kWHXGlcVJ^NXo3
-R5
-I6d[?4iV1UP97V]D0Zg?Dm2
 R6
-w1746256120
+I6d[?4iV1UP97V]D0Zg?Dm2
+R7
+R16
 8E:/UT Programming/DLD-Lab-Spring-2025/DataPath/Demux.v
 FE:/UT Programming/DLD-Lab-Spring-2025/DataPath/Demux.v
-!i122 357
+!i122 658
 L0 1 17
-R7
 R8
+R9
 r1
 !s85 0
 31
-R13
+R14
 !s107 E:/UT Programming/DLD-Lab-Spring-2025/DataPath/Demux.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/DataPath/Demux.v|
 !i113 0
-R10
-R2
-vport_num_cnt
 R11
+R3
+vMSSD_TB
+!s110 1746275559
 !i10b 1
-!s100 VbNSQb=G?0a76_Cc_5Vc<3
-R5
-IDU>QQzz=QfNGE0iz[iX>W2
+!s100 3^hzjigR2c0O^o6oh[Ahj2
 R6
-w1746273582
-8E:/UT Programming/DLD-Lab-Spring-2025/DataPath/PortNumCnt.v
-FE:/UT Programming/DLD-Lab-Spring-2025/DataPath/PortNumCnt.v
-!i122 358
-R12
-R7
+IzNaolOLbWkkX9mdAj;>:`2
+dC:/Users/FARHANGI/Desktop/DLD_Lab
+w1746275535
+8C:/Users/FARHANGI/Desktop/DLD_Lab/tb.v
+FC:/Users/FARHANGI/Desktop/DLD_Lab/tb.v
+!i122 388
+L0 2 159
 R8
+R9
 r1
 !s85 0
 31
+!s108 1746275559.000000
+!s107 C:/Users/FARHANGI/Desktop/DLD_Lab/tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/FARHANGI/Desktop/DLD_Lab/tb.v|
+!i113 0
+R11
+R3
+n@m@s@s@d_@t@b
+vport_num_cnt
+R12
+!i10b 1
+!s100 Jk2Ko<RNVKP3z0e_Yhm1@2
+R6
+I840fnB_h7B8aoCaIPIDEY1
+R7
+w1746442003
+8E:/UT Programming/DLD-Lab-Spring-2025/DataPath/PortNumCnt.v
+FE:/UT Programming/DLD-Lab-Spring-2025/DataPath/PortNumCnt.v
+!i122 659
 R13
+R8
+R9
+r1
+!s85 0
+31
+R14
 !s107 E:/UT Programming/DLD-Lab-Spring-2025/DataPath/PortNumCnt.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/DataPath/PortNumCnt.v|
 !i113 0
-R10
-R2
-vport_num_sr
 R11
+R3
+vport_num_sr
+Z17 !s110 1746442115
 !i10b 1
-!s100 7:7EO=^MmL3cJ:_3oS4eC3
-R5
-I`BGKa<HTk@E4?LS^oiG1I0
+!s100 ?9W6N:ja2`Oi^[WF6R>`i2
 R6
-w1746268860
+I_`0:>7Ehin]keZn8jT?GW0
+R7
+w1746442011
 8E:/UT Programming/DLD-Lab-Spring-2025/DataPath/PortNumSR.v
 FE:/UT Programming/DLD-Lab-Spring-2025/DataPath/PortNumSR.v
-!i122 359
-R14
-R7
+!i122 660
+R15
 R8
+R9
 r1
 !s85 0
 31
-R13
+R14
 !s107 E:/UT Programming/DLD-Lab-Spring-2025/DataPath/PortNumSR.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/DataPath/PortNumSR.v|
 !i113 0
-R10
-R2
+R11
+R3
 vSeven_Segment
-Z15 !s110 1746273590
+R17
 !i10b 1
 !s100 L=FIPG=>2MnAnBSN2lGSj2
-R5
-I2e1`b06UzCJ0Rm@HzgY]82
 R6
-w1745676406
+I2e1`b06UzCJ0Rm@HzgY]82
+R7
+R16
 8E:/UT Programming/DLD-Lab-Spring-2025/DataPath/SSD.v
 FE:/UT Programming/DLD-Lab-Spring-2025/DataPath/SSD.v
-!i122 360
+!i122 661
 L0 1 26
-R7
 R8
+R9
 r1
 !s85 0
 31
-Z16 !s108 1746273590.000000
+!s108 1746442115.000000
 !s107 E:/UT Programming/DLD-Lab-Spring-2025/DataPath/SSD.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/DataPath/SSD.v|
 !i113 0
-R10
-R2
+R11
+R3
 n@seven_@segment
 vtb_controller_onepulser
-R4
+R5
 !i10b 1
 !s100 2?Dn5DiF=G;`ezWRBOPX21
-R5
-IfBJWPRR[]ddXf6zdHQ]7F0
 R6
-w1745067916
+IfBJWPRR[]ddXf6zdHQ]7F0
+R7
+R16
 8E:/UT Programming/DLD-Lab-Spring-2025/onepulser_tb.v
 FE:/UT Programming/DLD-Lab-Spring-2025/onepulser_tb.v
-!i122 351
+!i122 651
 L0 3 35
-R7
 R8
+R9
 r1
 !s85 0
 31
-R9
+R10
 !s107 E:/UT Programming/DLD-Lab-Spring-2025/onepulser_tb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/onepulser_tb.v|
 !i113 0
-R10
-R2
-vtop_module
 R11
+R3
+vtop_module
+R12
 !i10b 1
-!s100 RP[SiFiRIATbOBSn_b0KO0
-R5
-I0_SZ?ETnoi4ml8DLN;zJ^2
+!s100 U6RLBG5_=HNWPH4PneO><1
 R6
-w1746266620
+IPP8H5]N:YLK9l2Ng@A3T;0
+R7
+w1746373518
 8E:/UT Programming/DLD-Lab-Spring-2025/top_module.v
 FE:/UT Programming/DLD-Lab-Spring-2025/top_module.v
-!i122 352
-L0 1 66
-R7
+!i122 652
+L0 1 67
 R8
+R9
 r1
 !s85 0
 31
-R13
+R10
 !s107 E:/UT Programming/DLD-Lab-Spring-2025/top_module.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/top_module.v|
 !i113 0
-R10
-R2
+R11
+R3
 vtop_module_tb
-R15
+R12
 !i10b 1
-!s100 S3RDAmg84R:PK:=9_QfBj2
-R5
-I<SGTgmoRjF8HJbWlaGQHn1
+!s100 HCFL?fmc7iaS[:A1QhU:]0
 R6
-w1746269495
+I>L43Fl5j=Im3<f3nbb21`3
+R7
+w1746390438
 8E:/UT Programming/DLD-Lab-Spring-2025/top_module_tb.v
 FE:/UT Programming/DLD-Lab-Spring-2025/top_module_tb.v
-!i122 361
-L0 3 53
-R7
+!i122 653
+L0 3 52
 R8
+R9
 r1
 !s85 0
 31
-R16
+R14
 !s107 E:/UT Programming/DLD-Lab-Spring-2025/top_module_tb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/top_module_tb.v|
 !i113 0
-R10
-R2
+R11
+R3

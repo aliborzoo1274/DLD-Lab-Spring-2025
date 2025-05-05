@@ -23,14 +23,14 @@ module controller (
 
     reg [1:0] ps, ns;
 
-    always @(posedge clk) begin
+    always @(posedge clk or posedge rst) begin
         if (rst)
             ps <= `a;
         else if (clken)
             ps <= ns;
     end
 
-    always @(ps or serin or co1 or co2 or cod) begin
+    always @(ps, serin, co1, co2, cod) begin
         case (ps)
             `a: ns = serin ? `a : `b;
             `b: ns = co1 ? `c : `b;
@@ -40,7 +40,7 @@ module controller (
         endcase
     end
 
-    always @(ps or co2 or cod) begin
+    always @(ps, co2, cod) begin
         cnt1 = 1'b0;
         cnt2 = 1'b0;
         cntd = 1'b0;

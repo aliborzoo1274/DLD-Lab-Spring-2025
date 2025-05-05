@@ -7,7 +7,7 @@ module port_num_sr (
     output reg [1:0] q
 );
 
-    always @(posedge clk)
+    always @(posedge clk or posedge reset)
     begin
         if (reset)
             q <= 2'b00;

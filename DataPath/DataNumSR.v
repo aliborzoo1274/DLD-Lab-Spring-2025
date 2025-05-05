@@ -7,13 +7,13 @@ module data_num_sr (
     output reg [4:0] q
 );
 
-    always @(posedge clk)
+    always @(posedge clk or posedge reset)
     begin
         if (reset)
             q <= 5'b00000;
         else if (clken) begin
             if (shend)
-                q <= {q[0], q[1], q[2], q[3], ser_in};
+                q <= {q[3], q[2], q[1], q[0], ser_in};
         end
     end
 

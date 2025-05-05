@@ -5,7 +5,8 @@ module top_module(
     input clkpb,
     output [3:0] LEDR,
     output [1:0] LEDG,
-    output [1:0] HEX
+    output [6:0] HEX0,
+    output [6:0] HEX1
 );
 
     wire clken;
@@ -41,8 +42,8 @@ module top_module(
         .p(LEDR),
         .cod(cod),
         .co2(co2),
-        .up(HEX[1]),
-        .low(HEX[0])
+        .up(HEX1),
+        .low(HEX0)
     );
 
     controller cu (

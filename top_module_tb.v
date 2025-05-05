@@ -8,7 +8,8 @@ module top_module_tb;
 
     wire [3:0] LEDR;
     wire [1:0] LEDG;
-    wire [1:0] HEX;
+    wire [6:0] HEX0;
+    wire [6:0] HEX1;
 
     top_module uut (
         .clk(clk),
@@ -17,7 +18,8 @@ module top_module_tb;
         .clkpb(clkpb),
         .LEDR(LEDR),
         .LEDG(LEDG),
-        .HEX(HEX)
+        .HEX0(HEX0),
+        .HEX1(HEX1)
     );
 
     initial clk = 0;
@@ -28,26 +30,23 @@ module top_module_tb;
 
     initial begin
         rst = 1;
-        ser_in = 0;
 
-        #50;
+        #10;
         rst = 0;
 
+        #55;
+        send_serial(34'b1010110011010101010101010101010101);
+
         #100;
-
-        send_serial(8'b10110110);
-
-        #1000;
-
         $stop;
     end
 
-    task send_serial(input [0:7] data);
+    task send_serial(input [0:33] data);
         integer i;
         begin
-            for (i = 0; i < 8; i = i + 1) begin
+            for (i = 0; i < 34; i = i + 1) begin
                 ser_in = data[i];
-                #20;
+                #60;
             end
         end
     endtask

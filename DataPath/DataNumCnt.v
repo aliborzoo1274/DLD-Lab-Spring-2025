@@ -8,7 +8,7 @@ module data_num_cnt (
 
     reg [2:0] q;
 
-    always @(posedge clk) begin
+    always @(posedge clk or posedge reset) begin
         if (reset) begin
             q <= 3'b000;
             co2 <= 1'b0;

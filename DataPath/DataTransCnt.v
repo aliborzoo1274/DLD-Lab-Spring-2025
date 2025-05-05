@@ -9,7 +9,7 @@ module data_trans_cnt (
     output reg cod
 );
 
-    always @(posedge clk) begin
+    always @(posedge clk or posedge reset) begin
         if (reset) begin
             q <= 5'b11111;
             cod <= 1'b0;
@@ -18,7 +18,7 @@ module data_trans_cnt (
                 q <= data_num;
                 cod <= 1'b0;
             end else if (cntd) begin
-                if (q == 5'd0) begin
+                if (q == 5'd1) begin
                     q <= 5'd31;
                     cod <= 1'b1;
                 end else begin
