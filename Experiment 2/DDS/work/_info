@@ -1,0 +1,250 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/modeltech64_2020.4/examples
+T_opt
+!s110 1747477384
+VY^W>UbTC?c>XaOARH@^h>2
+04 6 4 work dds_tb fast 0
+=18-b888e3b94e9b-68286388-10b-4ac0
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vcontroller_dds
+!s110 1747477377
+!i10b 1
+!s100 VbNmj3XSbDPbQI7g8kTF?2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ihm<CBPYe?YUo]F87a<_Vk3
+Z2 dE:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS
+w1747476519
+8E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/controller_dds.v
+FE:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/controller_dds.v
+!i122 167
+L0 6 50
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z5 !s108 1747477377.000000
+!s107 E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/controller_dds.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/controller_dds.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vcounter_6b
+!s110 1747476865
+!i10b 1
+!s100 jh^O0Rc`HWNOIZ8Fo4Wh73
+R1
+IOzSDQb;HZl58cf3^ooMGG1
+R2
+w1747476860
+8E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/counter_6b.v
+FE:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/counter_6b.v
+!i122 131
+L0 1 33
+R3
+R4
+r1
+!s85 0
+31
+!s108 1747476865.000000
+!s107 E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/counter_6b.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/counter_6b.v|
+!i113 0
+R6
+R0
+vdatapath_dds
+Z7 !s110 1747477378
+!i10b 1
+!s100 Z8a8h];0FidVoZ^n4OO[S0
+R1
+I1E49`flSjBFVzn4P?2E8i3
+R2
+w1747476542
+8E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/datapath_dds.v
+FE:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/datapath_dds.v
+!i122 168
+L0 1 48
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/datapath_dds.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/datapath_dds.v|
+!i113 0
+R6
+R0
+vdds_tb
+R7
+!i10b 1
+!s100 F=BCJR>[6cPmk3DEbFf1>2
+R1
+IRTQF@dahiHhkMbh;7>2;f2
+R2
+w1747477373
+8E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/dds_tb.v
+FE:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/dds_tb.v
+!i122 169
+L0 3 31
+R3
+R4
+r1
+!s85 0
+31
+Z8 !s108 1747477378.000000
+!s107 E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/dds_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/dds_tb.v|
+!i113 0
+R6
+R0
+vmux2to1_6b
+R7
+!i10b 1
+!s100 PnILW`V]o_]kzETU40DGT1
+R1
+IU99N?z;4Z5Oie0D0;ADV30
+R2
+w1746885942
+8E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/mux2to1_6b.v
+FE:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/mux2to1_6b.v
+!i122 170
+Z9 L0 1 10
+R3
+R4
+r1
+!s85 0
+31
+R8
+!s107 E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/mux2to1_6b.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/mux2to1_6b.v|
+!i113 0
+R6
+R0
+vmux2to1_8b
+R7
+!i10b 1
+!s100 4OcK`ekF><68ClCHmPP4>0
+R1
+I5^<OQFS>lJakM^1Wa0ohD2
+R2
+w1746885937
+8E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/mux2to1_8b.v
+FE:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/mux2to1_8b.v
+!i122 171
+R9
+R3
+R4
+r1
+!s85 0
+31
+R8
+!s107 E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/mux2to1_8b.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/mux2to1_8b.v|
+!i113 0
+R6
+R0
+vsin_rom
+R7
+!i10b 1
+!s100 V[IP0@44;<8j0TGLl8=fT2
+R1
+I0`Qim`S_c1?5W>TZcAX;63
+R2
+w1747295330
+8E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/sin_rom.v
+FE:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/sin_rom.v
+!i122 172
+L0 1 14
+R3
+R4
+r1
+!s85 0
+31
+R8
+!s107 E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/sin_rom.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/sin_rom.v|
+!i113 0
+R6
+R0
+vsm_to_twos
+R7
+!i10b 1
+!s100 XTd]ke?=<b_kNoBh=0_;c3
+R1
+IfK^XcOYLU:6N01P;jaiR`3
+R2
+w1747476482
+8E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/sm_to_twos.v
+FE:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/sm_to_twos.v
+!i122 173
+L0 1 9
+R3
+R4
+r1
+!s85 0
+31
+R8
+!s107 E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/sm_to_twos.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/sm_to_twos.v|
+!i113 0
+R6
+R0
+vtop_module_dds
+R7
+!i10b 1
+!s100 ?AdJ9GK@1YEXS;2YGbiV<3
+R1
+IUK@Yk674O80lQf?ZGJ72`2
+R2
+w1747297059
+8E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/top_module_dds.v
+FE:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/top_module_dds.v
+!i122 174
+L0 1 36
+R3
+R4
+r1
+!s85 0
+31
+R8
+!s107 E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/top_module_dds.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/top_module_dds.v|
+!i113 0
+R6
+R0
+vtwos_comp
+R7
+!i10b 1
+!s100 E9NYzeM=IBBRfHGQ^j<>h3
+R1
+IVV7gdYP]D6dPcef[MTGci3
+R2
+w1746886639
+8E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/twos_comp.v
+FE:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/twos_comp.v
+!i122 175
+L0 1 8
+R3
+R4
+r1
+!s85 0
+31
+R8
+!s107 E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/twos_comp.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/UT Programming/DLD-Lab-Spring-2025/Experiment 2/DDS/twos_comp.v|
+!i113 0
+R6
+R0
