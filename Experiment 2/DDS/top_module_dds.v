@@ -1,7 +1,6 @@
 module top_module_dds(
     input clk,
     input rst,
-    input enable,
     output [7:0] out
 );
 
@@ -28,7 +27,6 @@ module top_module_dds(
     counter_6b counter(
         .clk(clk),
         .rst(rst),
-        .enable(enable),
         .co(co),
         .addr(addr)
     );

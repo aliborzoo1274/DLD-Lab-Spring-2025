@@ -6,8 +6,10 @@ module sin_rom (
     reg [7:0] LUT [0:63];
 
     initial begin
-        $readmemb("sine.mem.txt", LUT);
+        $readmemb("sine.mem", LUT);
     end
+
+    //(* romstyle = "M9K" *)(* ram_init_file = "sine.mif" *) reg [7:0] LUT [0:63];
 
     assign rom_out = LUT[addr];
 
